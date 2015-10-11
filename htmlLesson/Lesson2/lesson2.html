@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-	<title>Introduction to CSS</title>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8" > 
+ <title>Lesson 2: Introduction to CSS</title>
+ <style>
+  h1 {
+  	  border: 2px dotted;
+   	  top: 25px;
+  	  width: 320px;
+  	  color: yellow;
+   	  margin: 10px auto;
+	  position: relative;
+  	  text-align: center;
+  }
+  @media print{
+  	a{
+  		visibility: hidden;
+  		}
+  	h1{
+  	   border: solid;
+  	}
+}
+ </style>
 </head>
-<body>
-<h1>Lesson 2: Introduction to CSS</h1>
-<p><a href="../index.html">Back to Table of Contents</a></p>
+<body style="background: black; color: white;">
+ <h1 style="all: initial; color: white;">Lesson 2: Introduction to CSS</h1>
+ <p style="color: green">Green Text</p>
+ <p style="color: blue; text-align:center">Centered Blue Text</p>
+ <p style="color: red; text-align:right">Right aligned Red Text</p>
+ <h1 style="border: 1px solid; top: 25px; width: 320px; margin: 0 auto; text-align:center; position:relative;">Another h1</h1>
+ <h1>Another h1</h1>
+ <h1>Another h1</h1>
+ <h1>Another h1</h1>
+ <p><a href="../lesson1/lesson1.html">Lesson 1: Advanced Hyperlinks</a></p>
+ <p><a href="../lesson3/lesson3.html">Lesson 3: Introduction to JavaScript</a></p>
+ <p><a href="../index.html">Back to Table of Contents</a></p>
 </body>
 </html>
