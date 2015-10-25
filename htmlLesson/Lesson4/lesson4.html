@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-	<title>Introduction to div/span</title>
-</head>
-<body>
-<h1>Lesson 4: Introduction to div/span</h1>
-<p><a href="../Lesson3/lesson3.html">Lesson 3: Introduction to JavaScript</a>
-<p><a href="../Lesson5/lesson5.html">Lesson 5: Introduction to CSS files, sheets and ids</a>
-<p><a href="../index.html">Back to Table of Contents</a></p>
-</body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<title>Introduction to CSS classes</title>
+		<style>
+		h1 {
+		border: 2px dotted;
+		top: 25px;
+		width: 320px;
+		color: yellow;
+		margin: 10px auto;
+		position: relative;
+		text-align: center;
+		}
+		td.odd{
+			color: yellow;
+		}
+		td.even{
+			color: purple;
+		}
+		td{
+			color: green;
+			font-size: 36px;
+		}
+		.centered{
+			text-align: center;
+		}
+		/*@media print{
+		a{
+			visibility: hidden;
+			}*/
+		.solid{
+		border-style: solid;
+		}
+		.red{
+			color: red;
+		}
+		/*}*/
+		</style>
+	</head>
+	<body style="background: black; color: white;">
+		<h1 style="all: initial; color: white;">Lesson 4: CSS classes</h1>
+		<p style="color: green">Green Text</p>
+		<p style="color: blue; text-align:center">Centered Blue Text</p>
+		<p style="color: red; text-align:right">Right aligned Red Text</p>
+		<table border="1">
+			<caption>example</caption>
+			<thead>
+				<tr>
+					<th>name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="odd">Simon</td>
+				</tr>
+				<tr>
+					<td class="even">Sofya</td>
+				</tr>
+				<tr>
+					<td class="odd">Brian</td>
+				</tr>
+				<tr>
+					<td class="even centered">Betsy</td>
+				</tr>
+				<tr>
+					<td class="odd">Turd</td>
+				</tr>
+				<tr>
+					<td>Turdite</td>
+				</tr>
+			</tbody>
+		</table>
+		<h1 class="solid red" style="border-width: 1px; top: 25px; width: 320px; margin: 0 auto; position:relative;">Another h1</h1>
+		<h2>I'm an H2</h2>
+		<h1>Another h1</h1>
+		<h1 class ="solid">Another h1</h1>
+		<h1>Another h1</h1>
+		<h1>Lesson 4: Introduction to CSS classes</h1>
+		<p><a href="../Lesson3/lesson3.html">Lesson 3: Introduction to JavaScript</a>
+		<p><a href="../Lesson5/lesson5.html">Lesson 5: Introduction to CSS files, sheets and ids</a>
+		<p><a href="../index.html">Back to Table of Contents</a></p>
+	</body>
 </html>
