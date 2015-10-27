@@ -1,0 +1,37 @@
+h1 {
+    border: 2px dotted;
+    color: yellow;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    width: 320px;
+}
+td.odd {
+    color: blue;
+}
+td.even {
+    color: purple;
+}
+td {
+    color: green;
+    font-size: 36px;
+}
+.centered {
+    text-align: center;
+}
+
+.solid {
+    border-style: solid;
+}
+.red {
+    color: red;
+}
+#specialH1 {
+    border-width: 1px;
+    top: 25px;
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+    color: green;
+}
