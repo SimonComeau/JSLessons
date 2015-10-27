@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Lesson 2: Introduction to CSS</title>
+    <link rel="stylesheet" type="text/css" href="../pageFormat.css">
     <style>
     h1 {
-      border: 2px dotted;
-      top: 25px;
-      width: 320px;
-      color: yellow;
-      margin: 10px auto;
-      position: relative;
-      text-align: center;
+        border: 2px dotted;
+        top: 25px;
+        width: 320px;
+        color: yellow;
+        margin: 10px auto;
+        position: relative;
+        text-align: center;
     }
-    @media print{
-      a{
-        visibility: hidden;
+    
+    @media print {
+        a {
+            visibility: hidden;
         }
-      h1{
-      border: solid;
-      }
+        h1 {
+            border: solid;
+        }
     }
     </style>
-  </head>
-  <body style="background: black; color: white;">
-    <h1 style="all: initial; color: white;">Lesson 2: Introduction to CSS</h1>
+</head>
+
+<body> <!-- <body style="background: black; color: white;"> original body settings-->
+    <h1 id="pageTitleH1">Lesson 2: Introduction to CSS</h1>   <!-- style="all: initial; color: white;" used in the original h1-->
     <p style="color: green">Green Text</p>
     <p style="color: blue; text-align:center">Centered Blue Text</p>
     <p style="color: red; text-align:right">Right aligned Red Text</p>
@@ -35,5 +39,6 @@
     <p><a href="../lesson1/lesson1.html">Lesson 1: Advanced Hyperlinks</a></p>
     <p><a href="../lesson3/lesson3.html">Lesson 3: Introduction to JavaScript</a></p>
     <p><a href="../index.html">Back to Table of Contents</a></p>
-  </body>
+</body>
+
 </html>

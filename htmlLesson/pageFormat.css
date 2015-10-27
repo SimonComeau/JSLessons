@@ -1,0 +1,12 @@
+body {
+    background-image: url(tableOfContentBG.png);
+}
+
+#pageTitleH1 {
+    border: none;
+    color: black;
+    text-align: center;
+}
+#linkToTableOfContent {
+	text-align: bottom;
+}
