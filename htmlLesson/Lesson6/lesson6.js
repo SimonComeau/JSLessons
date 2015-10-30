@@ -10,7 +10,6 @@ function contentLoaded() {
     'use strict';
     setTimeout(displayFooter, 5000);
 }
-
 // document.addEventListener("DOMContentLoaded", function () {
 //     "use strict";
 //     setTimeout(function () {
