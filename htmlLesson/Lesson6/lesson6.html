@@ -5,6 +5,17 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Introduction to JavaScript files, functions</title>
     <link rel="stylesheet" type="text/css" href="../pageFormat.css">
+    <script>
+    function redDivChildrenCount() {
+        var c = document.getElementById('redDiv').children;
+        var txt = " ";
+        var i;
+        for (i = 0; i < c.length; i++) {
+            txt = txt + c[i].tagName + "<br>";
+        }
+        console.log("I have this many " + txt + " children.");
+    }
+    </script>
 </head>
 
 <body>
@@ -16,9 +27,9 @@
         <p><a href="../index.html">Back to Table of Contents</a></p>
     </div>
     <div style="background: red; font-size: 20px;" id="redDiv">
-        <p><h1>Brian</h1></p>
+        <h1>Brian</h1>
     </div>
-    <button onclick="clickHandler()">Click Me!</button>
+    <button onclick="changeRedDiv()">Click Me!</button>
     <script type="text/javascript" src="lesson6.js"></script>
 </body>
 
