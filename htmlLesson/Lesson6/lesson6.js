@@ -10,6 +10,13 @@ function contentLoaded() {
     'use strict';
     setTimeout(displayFooter, 5000);
 }
+
+document.addEventListener("DOMContentLoaded", clickHandler);
+
+function clickHandler() {
+    'use strict';
+    document.getElementById('redDiv').children[0].children[1].text = 'Simon';
+}
 // document.addEventListener("DOMContentLoaded", function () {
 //     "use strict";
 //     setTimeout(function () {
